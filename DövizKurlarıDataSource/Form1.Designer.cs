@@ -51,6 +51,7 @@
             this.lstBoxDoviz.Name = "lstBoxDoviz";
             this.lstBoxDoviz.Size = new System.Drawing.Size(123, 186);
             this.lstBoxDoviz.TabIndex = 0;
+            this.lstBoxDoviz.SelectedIndexChanged += new System.EventHandler(this.lstBoxDoviz_SelectedINdexChanged);
             // 
             // btnYukle
             // 
